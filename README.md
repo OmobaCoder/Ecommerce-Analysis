@@ -91,7 +91,7 @@ Here, I utilized a variety of effective visualizations, including maps, KPI card
    ![](customers.png)
  3. Insights/Recommendation
    ![](insight.png)
-**Here are the screenshot of the report and it can be interacted with on PowerBI [here](https://tinyurl.com/5n94sckr)
+**Here are the screenshot of the report and it can be interacted with on PowerBI** [here](https://tinyurl.com/5n94sckr)
 
 
 ## References
