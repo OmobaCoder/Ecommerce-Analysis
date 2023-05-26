@@ -23,6 +23,7 @@ The goal is to utilize data analysis skills in other to generae insight on the f
 
 ## Data Collection
 This dataset was extracted from MYSQL server and imported to Power Bi. This was achieved by connecting powerbi to mysql server database.
+
 <img width="918" alt="getdata" src="https://github.com/OmobaCoder/Ecommerce-Analysis/assets/107421646/badc7522-4521-464e-b1ee-beaa7a4e1c86">
 
 ## Data Transformation
