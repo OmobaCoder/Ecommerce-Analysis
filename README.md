@@ -92,7 +92,7 @@ Here, I utilized a variety of effective visualizations, including maps, KPI card
  3. Insights/Recommendation
    ![](insight.png)
    
-**click[here](https://tinyurl.com/5n94sckr)to interact with my report on powerBi Service.
+**click [here](https://tinyurl.com/5n94sckr) to interact with my report on powerBi Service.** 
 
 
 ## References
