@@ -27,22 +27,24 @@ This dataset was extracted from MYSQL server and imported to Power Bi. This was 
 
 ## Data Transformation
 The data was had to go through cleaning and transformation phase in Power Query which is the kitchen of power bi. The data cleaning phase helps get our data ready for analysis. [See screenshots below]
-Ecommercer Table            | Applied Steps
-:--------------------------:|:------------------------:
-![](FactTable.png)          |   ![](applied_steps.png)
-Shipping Table              |           Category Table
-:--------------------------:|:------------------------:
-![](dim_shipping.png)       |         ![](dim_category.png)
 
-Cusomers Table              |        Delivery Table
-:--------------------------:|:-----------------------
-![](dim_customer.png)       |     ![](dim_delivery.png)
-Order Table                 |        Product Table
-:--------------------------:|:-----------------------
-![](dim_order.png)          |     ![](dim_product.png)
-Region Table                |        Segment Table
-:--------------------------:|:-----------------------
-![](dim_region.png)         |     ![](dim_segment.png)
+   Ecommerce Table         | Applied Steps
+:--------------------- ---:|:--------------------- ---:
+![](FactTable.png)         | ![](applied_steps.png)
+
+Shipping Table             | Category Table
+:--------------------- ---:|:--------------------- ---:
+![](dim_shipping.png)      |![](dim_category.png)
+
+Cusomers Table             |Delivery Table
+:--------------------- ---:|:--------------------- ---:
+![](dim_customer.png)      |![](dim_delivery.png)
+Order Table                | Product Table
+:--------------------- ---:|:--------------------- ---:
+![](dim_order.png)         |![](dim_product.png)
+Region Table               |    Segment Table
+:--------------------- ---:|:--------------------- ---:
+![](dim_region.png)         |![](dim_segment.png)
 
 
 ## Data Modelling
