@@ -50,7 +50,7 @@ Region Table          |Segment Table
 
 
 ## Data Modelling
-A star schema model was utilized in this project
+Here we create relationships in our tables
 I created a Calendar Table, see the code below;
 
 ![](calendar_Table.png)
@@ -67,7 +67,7 @@ I created a Calendar Table, see the code below;
 
    )
    
- A calculated column for customers_name was created to hold first and lastname in a single column using the code below.
+ - A calculated column for customers_name was created to hold first and lastname in a single column using the code below.
  ![](Transform.png) 
  
  Customer_name = CONCATENATE('dim_customer'[customer_first_name]," " &  'dim_customer'[customer_last_name])
@@ -77,15 +77,17 @@ I created a Calendar Table, see the code below;
 :--------------------------:|:------------------------:
 ![](Before_Modelling.png)   |   ![](After_Modelling.png)
 
-
+**Hope you can see the beauty of modelling your data**
 
 ## Data Visualization
- I Created a 3 page report for this analysis.
+Here, I made use of the appropriate visuals for my analysis. I Created a 3 page report for this analysis see pictures below.
  1. Sales Page
- 2. Customers Page
+   ![](Sales.png)
+ 2. Customers Page 
+   ![](customers.png)
  3. Insights/Recommendation
-
+   ![](insight.png)
 **Here are the screenshot of the report and it can be interacted with on PowerBI [here](https://tinyurl.com/5n94sckr)
 
-
+## References
 This project was inspired by [Swapnjeet](https://www.linkedin.com/in/swapnjeet-s-58a673273)
