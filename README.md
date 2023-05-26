@@ -2,6 +2,7 @@
 ![ecom](https://github.com/OmobaCoder/Ecommerce-Analysis/assets/107421646/ae5641da-2266-4b63-8e13-01649d6eb5f9)
 
 ---
+
 ## Introduction
 This is a PowerBI project on an Ecommerce Sales analysis of a fictitious US Based company called **NxEdge Stores** which specialises in Technology, Furniture and Office supplies.The project aims to analyze and derive insights on year to date sales of its product and drive business growth.
 
