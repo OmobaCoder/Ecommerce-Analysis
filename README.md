@@ -8,7 +8,7 @@ This is a PowerBI project on an Ecommerce Sales analysis of a fictitious US Base
 
 
 ## Problem Statement
-The goal is to utilize data analysis skills in other to generae insight on the following business scenario:
+The goal is to utilize data analysis skills in other to generate insight on the following business scenario:
 1. Create a KPI card showing **YTD Sales, YTD Profit, YTD Quantity sold, YTD Profit Margin**
 2. Find the Year on Year growth for each KPI and show a YTD sparkline for each measure in the KPI to understand monthly trend for each fact.
 3. Find **YTD Sales, PYTD Sales, YoY Sales growth**for different customer category. Add a trend icon for each category.
