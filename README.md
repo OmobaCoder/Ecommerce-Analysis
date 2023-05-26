@@ -29,21 +29,23 @@ This dataset was extracted from MYSQL server and imported to Power Bi. This was 
 The data was had to go through cleaning and transformation phase in Power Query which is the kitchen of power bi. The data cleaning phase helps get our data ready for analysis. [See screenshots below]
 
    Ecommerce Table    | Applied Steps
-:--------------------:|:--------------------- ---:
+:--------------------:|:------------------------:
 ![](FactTable.png)    | ![](applied_steps.png)
 
 Shipping Table        | Category Table
-:--------------------:|:--------------------- ---:
+:--------------------:|:------------------------:
 ![](dim_shipping.png) |![](dim_category.png)
 
-Cusomers Table             |Delivery Table
-:--------------------:|:--------------------- ---:
+Cusomers Table        |Delivery Table
+:--------------------:|:------------------------:
 ![](dim_customer.png) |![](dim_delivery.png)
-Order Table           | Product Table
-:--------------------:|:--------------------- ---:
+
+Order Table           |Product Table
+:--------------------:|:------------------------:
 ![](dim_order.png)    |![](dim_product.png)
-Region Table          |    Segment Table
-:--------------------:|:--------------------- ---:
+
+Region Table          |Segment Table
+:--------------------:|:------------------------:
 ![](dim_region.png)   |![](dim_segment.png)
 
 
@@ -73,7 +75,7 @@ I created a Calendar Table, see the code below;
 
   Before Modelling          | After Modelling
 :--------------------------:|:------------------------:
-![](Before_Modelling.png)     |   ![](After_Modelling.png)
+![](Before_Modelling.png)   |   ![](After_Modelling.png)
 
 
 
