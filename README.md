@@ -67,7 +67,8 @@ I created a Calendar Table, see the code below;
 
    )
    
- - A calculated column for customers_name was created to hold first and lastname in a single column using the code below.
+ ---
+ ***A calculated column for customers_name was created to hold first and lastname in a single column using the code below.**
  ![](Transform.png) 
  
  Customer_name = CONCATENATE('dim_customer'[customer_first_name]," " &  'dim_customer'[customer_last_name])
@@ -79,8 +80,10 @@ I created a Calendar Table, see the code below;
 
 **Hope you can see the beauty of modelling your data**
 
+
 ## Data Visualization
-Here, I made use of the appropriate visuals for my analysis. I Created a 3 page report for this analysis see pictures below.
+Here, I utilized a variety of effective visualizations, including maps, KPI cards, line charts, column charts, tables, and bar charts, to present my analysis and findings. By employing these appropriate visuals, I aimed to facilitate understanding of complex information and enable decision-makers to derive valuable insights from the data. To present the comprehensive analysis, I created a three-page report, which included these visualizations. Please refer to the attached images below to visualize the report.
+
  1. Sales Page
    ![](Sales.png)
  2. Customers Page 
@@ -88,6 +91,7 @@ Here, I made use of the appropriate visuals for my analysis. I Created a 3 page 
  3. Insights/Recommendation
    ![](insight.png)
 **Here are the screenshot of the report and it can be interacted with on PowerBI [here](https://tinyurl.com/5n94sckr)
+
 
 ## References
 This project was inspired by [Swapnjeet](https://www.linkedin.com/in/swapnjeet-s-58a673273)
