@@ -27,7 +27,7 @@ This dataset was extracted from MYSQL server and imported to Power Bi. This was 
 
 ## Data Transformation
 The data was had to go through cleaning and transformation phase in Power Query which is the kitchen of power bi. The data cleaning phase helps get our data ready for analysis. [See screenshots below]
-Transform                            |B
+Transform                   | Applied Steps
 :--------------------------:|:------------------------:
 ![](Transform.png)     |   ![](applied_steps.png)
 
@@ -35,6 +35,8 @@ Transform                            |B
 ## Data Modelling
 A star schema model was utilized in this project
 I created a Calendar Table, see the code below;
+![](calendar_Table)
+
    #CalendarTable = 
    ADDCOLUMNS(
        CALENDAR(MIN('dim_order'[order_date]), MAX('dim_order'[order_date])),
@@ -53,10 +55,9 @@ I created a Calendar Table, see the code below;
  Customer_name = CONCATENATE('dim_customer'[customer_first_name]," " &  'dim_customer'[customer_last_name])
 
 
-A                            |B
+  Before Modelling          | After Modelling
 :--------------------------:|:------------------------:
 ![](Before_Modelling.png)     |   ![](After_Modelling.png)
-
 
 
 
