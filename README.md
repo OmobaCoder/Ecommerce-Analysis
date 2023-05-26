@@ -78,10 +78,10 @@ I created a Calendar Table, see the code below;
 :--------------------------:|:------------------------:
 ![](Before_Modelling.png)   |   ![](After_Modelling.png)
 
-**Hope you can see the beauty of modelling your data**
+**Hope you can see the beauty of modelling your data**😉
 
 
-## Data Visualization
+## Data Visualization 📊
 Here, I utilized a variety of effective visualizations, including maps, KPI cards, line charts, column charts, tables, and bar charts, to present my analysis and findings. By employing these appropriate visuals, I aimed to facilitate understanding of complex information and enable decision-makers to derive valuable insights from the data. To present the comprehensive analysis, I created a three-page report, which included these visualizations. Please refer to the attached images below to visualize the report.
 
  1. Sales Page
