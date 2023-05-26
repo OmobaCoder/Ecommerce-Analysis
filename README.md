@@ -8,7 +8,7 @@ This is a PowerBI project on an Ecommerce Sales analysis of a fictitious US Base
 
 
 ## Problem Statement
-The goal is to utilize data analysis skills in other to generae insight on the business scenario:
+The goal is to utilize data analysis skills in other to generae insight on the following business scenario:
 1. Create a KPI card showing **YTD Sales, YTD Profit, YTD Quantity sold, YTD Profit Margin**
 2. Find the Year on Year growth for each KPI and show a YTD sparkline for each measure in the KPI to understand monthly trend for each fact.
 3. Find **YTD Sales, PYTD Sales, YoY Sales growth**for different customer category. Add a trend icon for each category.
@@ -27,12 +27,31 @@ This dataset was extracted from MYSQL server and imported to Power Bi. This was 
 
 ## Data Transformation
 The data was had to go through cleaning and transformation phase in Power Query which is the kitchen of power bi. The data cleaning phase helps get our data ready for analysis. [See screenshots below]
-A                            |B
+Transform                            |B
 :--------------------------:|:------------------------:
 ![](Transform.png)     |   ![](applied_steps.png)
 
 
 ## Data Modelling
+A star schema model was utilized in this project
+I created a Calendar Table, see the code below;
+   #CalendarTable = 
+   ADDCOLUMNS(
+       CALENDAR(MIN('dim_order'[order_date]), MAX('dim_order'[order_date])),
+       "Year", YEAR([Date]),
+       "Month", FORMAT([Date],"mmm"),
+       "Month no", MONTH([Date]),
+       "Quater", FORMAT([Date], "\QQ"),
+       "Day", FORMAT([Date],"ddd"),
+       "Day no", WEEKDAY([Date])
+
+   )
+   
+ A calculated column for customers_name was created to hold first and lastname in a single column using the code below.
+ ![](Transform.png) 
+ 
+ Customer_name = CONCATENATE('dim_customer'[customer_first_name]," " &  'dim_customer'[customer_last_name])
+
 
 A                            |B
 :--------------------------:|:------------------------:
@@ -47,4 +66,7 @@ A                            |B
  2. Customers Page
  3. Insights/Recommendation
 
-**Here are the screenshot of the report and it can be interacted with on PowerBI [here](https:// )
+**Here are the screenshot of the report and it can be interacted with on PowerBI [here](https://tinyurl.com/5n94sckr)
+
+
+This project was inspired by [Swapnjeet](https://www.linkedin.com/in/swapnjeet-s-58a673273)
