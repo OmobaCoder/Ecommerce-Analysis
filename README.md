@@ -25,3 +25,26 @@ The goal is to utilize data analysis skills in other to generae insight on the b
 This dataset was extracted from MYSQL server and imported to Power Bi. This was achieved by connecting powerbi to mysql server database.
 <img width="918" alt="getdata" src="https://github.com/OmobaCoder/Ecommerce-Analysis/assets/107421646/badc7522-4521-464e-b1ee-beaa7a4e1c86">
 
+## Data Transformation
+The data was had to go through cleaning and transformation phase in Power Query which is the kitchen of power bi. The data cleaning phase helps get our data ready for analysis. [See screenshots below]
+A                            |B
+:--------------------------:|:------------------------:
+![](Transform.png)     |   ![](applied_steps.png)
+
+
+## Data Modelling
+
+A                            |B
+:--------------------------:|:------------------------:
+![](Before_Modelling.png)     |   ![](After_Modelling.png)
+
+
+
+
+## Data Visualization
+ I Created a 3 page report for this analysis.
+ 1. Sales Page
+ 2. Customers Page
+ 3. Insights/Recommendation
+
+**Here are the screenshot of the report and it can be interacted with on PowerBI [here](https:// )
