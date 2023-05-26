@@ -35,7 +35,8 @@ Transform                   | Applied Steps
 ## Data Modelling
 A star schema model was utilized in this project
 I created a Calendar Table, see the code below;
-![](calendar_Table)
+
+![](calendar_Table.png)
 
    #CalendarTable = 
    ADDCOLUMNS(
